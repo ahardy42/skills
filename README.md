@@ -6,7 +6,7 @@ Agent Skills for [Claude Code](https://claude.com/claude-code). Each skill is on
 
 | Skill | What it does |
 |---|---|
-| _none yet_ | |
+| [tufte-design](skills/tufte-design/SKILL.md) | Applies Edward Tufte's information design rules when Claude makes or reviews charts, tables, dashboards, and sparklines. Includes recipes for matplotlib/seaborn/plotly, Recharts/D3/SVG, and tables. |
 
 ## Install
 
