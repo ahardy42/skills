@@ -1,0 +1,16 @@
+{
+  "name": "ahardy42-skills",
+  "description": "Agent Skills by Andy Hardy",
+  "owner": { "name": "Andy Hardy" },
+  "plugins": [
+    {
+      "name": "tufte-design",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/tufte-design"],
+      "description": "Applies Edward Tufte's information design rules to charts, tables, and dashboards.",
+      "license": "MIT",
+      "keywords": ["data-visualization", "charts", "tufte"]
+    }
+  ]
+}
