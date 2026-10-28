@@ -90,7 +90,8 @@ Sort by value, never alphabetically, unless the category order itself is meaning
 ```python
 fig, axes = plt.subplots(nrows, ncols, figsize=(ncols*2.2, nrows*1.6),
                          sharex=True, sharey=True)
-for ax, (name, g) in zip(axes.flat, df.groupby("category")):
+groups = list(df.groupby("category"))
+for ax, (name, g) in zip(axes.flat, groups):
     ax.plot(g["x"], g["y"], color="#4477aa", lw=1.2)
     ax.set_title(name, fontsize=9, loc="left", color="#333333", weight="normal")
     ax.tick_params(labelsize=7)
